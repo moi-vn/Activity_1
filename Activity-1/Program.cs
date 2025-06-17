@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        GreetUser("John");
-        int result = Add(3, 5);
+        GreetUser("Vivien");
+        int result = Add(2, 5);
         Console.WriteLine("Result: " + result);
     }
 
@@ -17,5 +17,9 @@ class Program
     static int Add(int a, int b)
     {
         return a + b;
+    }
+    static void SayBye()
+    {
+        Console.WriteLine("Goodbye!");
     }
 }
